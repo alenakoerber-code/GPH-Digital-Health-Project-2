@@ -48,6 +48,12 @@ article {
   border: 5px dotted grey;
 }
 
+span {
+  font-style: oblique;
+  font-weight: bold;
+  color: red;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
