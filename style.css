@@ -46,6 +46,17 @@ h2 {
 
 article {
   border: 5px dotted grey;
+  float: left;
+}
+
+
+#right_box_with_border {
+  border: 2px solid black;
+  padding: 5%;
+  margin: 1%;
+  background-color: violet;
+  display: block;
+  float: right;
 }
 
 span {
@@ -54,18 +65,19 @@ span {
   color: red;
 }
 
-table {
+
+table#health_data,#practice_tabledesign {
   width: 100%;
   border-collapse: collapse;
 }
 
-th {
+table#health_data th {
   border-left: 2px solid black;
   border-right: 2px solid black;
   border-bottom:  2px solid black;
 }
 
-td {
+table#health_data td {
   border-left: 2px solid black;
   border-right: 2px solid black;
   border-top: 1px dashed grey;
